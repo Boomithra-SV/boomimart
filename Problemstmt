@@ -1,0 +1,78 @@
+1. Title
+
+BoomiMart – Smart Online Grocery & Daily Essentials Shopping System
+
+2. Domain
+
+E-Commerce / Retail Management System
+
+3. Who is the User?
+Customer – Searches products, places orders, tracks deliveries, and manages their profile.
+Admin – Manages products, categories, orders, customers, and inventory.
+Delivery Partner – Accepts assigned orders and updates delivery status.
+4. What Problem Are We Solving?
+
+Many local grocery stores still depend on manual ordering, which is time-consuming and often leads to stock errors and delayed deliveries. Customers also need to visit stores physically, making shopping inconvenient during busy schedules. BoomiMart provides an online platform where customers can browse products, place orders, make payments, and track deliveries. For example, a working professional can order groceries from home and receive them without visiting the store.
+
+5. Proposed Solution
+
+BoomiMart will provide the following features:
+
+User registration and secure login.
+Browse products by category.
+Search and filter products.
+Add products to cart and place orders.
+Online payment and Cash on Delivery options.
+Order tracking and order history.
+Inventory management for admins.
+Product, category, and customer management.
+Delivery status updates.
+Sales and order reports for administrators.
+6. Core Entities / Database Tables
+Users
+Products
+Categories
+Cart
+Cart Items
+Orders
+Order Items
+Payments
+Delivery
+Inventory
+7. User Roles & Permissions
+Admin
+Manage users.
+Add, update, and delete products.
+Manage categories.
+Update inventory.
+View all orders.
+Generate sales reports.
+Assign deliveries.
+Customer
+Register and log in.
+Browse and search products.
+Add/remove products from cart.
+Place orders.
+Make payments.
+Track orders.
+View order history.
+Delivery Partner
+View assigned deliveries.
+Update delivery status.
+Confirm successful delivery.
+8. Success Criteria
+A customer should be able to register and place an order in under 3 minutes.
+Product search results should appear within 2 seconds.
+Admin should be able to update inventory in less than 1 minute.
+Customers should be able to track order status in real time.
+Order confirmation should be generated immediately after successful payment.
+9. Out of Scope
+AI-based product recommendations.
+International shipping.
+Voice-based shopping.
+Multi-vendor marketplace support.
+Cryptocurrency payments.
+Offline billing/POS integration.
+10. Chosen Track
+
+Java – Spring Boot
